@@ -1,0 +1,17 @@
+# Ignore dataset CSVs
+data/train.csv
+data/test.csv
+
+# Ignore large cleaned output file
+outputs/cleaned_data.csv
+
+# Jupyter cache & temporary files
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
